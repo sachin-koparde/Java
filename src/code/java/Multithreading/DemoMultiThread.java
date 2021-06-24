@@ -9,7 +9,7 @@ public class DemoMultiThread implements Runnable{
     public static void main(String[] args) throws InterruptedException {
 
         //creating a new Thread with name newThread
-        Thread newThread = new Thread();
+        Thread newThread = new Thread(new DemoMultiThread());
 
         newThread.start(); //thread will start its execution here
 
@@ -21,6 +21,8 @@ public class DemoMultiThread implements Runnable{
         System.out.println(newThread.getPriority());
 
         System.out.println("Thread is running.");
+
+        newThread.interrupt();
 
     }
 

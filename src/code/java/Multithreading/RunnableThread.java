@@ -16,7 +16,7 @@ public class RunnableThread implements Runnable {
         System.out.println("Thread running: " + threadName);
 
         for (int index = 0; index < 5; index++) {
-            System.out.println(index);
+            System.out.println(index + " of " + threadName);
 
             try {
                 thread.sleep(3000);
