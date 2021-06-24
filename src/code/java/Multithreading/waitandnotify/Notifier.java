@@ -15,13 +15,14 @@ public class Notifier implements Runnable{
         System.out.println(threadName + " started");
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1000);
 
              /*synchronized block marks a method or a block of code as synchronized.
              A synchronized block in Java can only be executed a single thread at a time*/
             synchronized (message) {
-                message.notify();
-                System.out.println(threadName + " notified successfully");
+                message.setMessage(threadName + " notifier work done");
+//                message.notify();
+                message.notifyAll();
             }
         } catch (InterruptedException e) {
             e.printStackTrace();

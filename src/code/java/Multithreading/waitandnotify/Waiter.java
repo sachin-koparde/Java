@@ -15,11 +15,11 @@ public class Waiter implements Runnable{
 
         /*synchronized block marks a method or a block of code as synchronized.
              A synchronized block in Java can only be executed a single thread at a time*/
-        synchronized (threadName) {
+        synchronized (message) {
             try {
                 //this will wait for other threads to invoke notify method to complete its process(es)
                 message.wait();
-                System.out.println("Waiting to get notified at time " + System.currentTimeMillis());
+                System.out.println(threadName + " waiting to get notified at time " + System.currentTimeMillis());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
