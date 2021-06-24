@@ -1,4 +1,4 @@
-package code.java.Multithreading.test;
+package code.java.other.threadtest;
 
 public class MyThread extends Thread{
 

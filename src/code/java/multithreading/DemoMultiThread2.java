@@ -1,4 +1,4 @@
-package code.java.Multithreading;
+package code.java.multithreading;
 
 public class DemoMultiThread2 {
 

@@ -1,4 +1,4 @@
-package code.java.Generics;
+package code.java.generics;
 
 import java.util.Arrays;
 import java.util.List;

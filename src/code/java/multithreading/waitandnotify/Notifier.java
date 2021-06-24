@@ -1,4 +1,4 @@
-package code.java.Multithreading.waitandnotify;
+package code.java.multithreading.waitandnotify;
 
 public class Notifier implements Runnable{
 
