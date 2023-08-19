@@ -2,7 +2,7 @@ package code.java.multithreading.waitandnotify;
 
 public class Message {
 
-    private String message;
+    private String message; //message of type String
 
     public Message(String message) {
         this.message = message;
