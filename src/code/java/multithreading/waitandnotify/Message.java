@@ -2,7 +2,7 @@ package code.java.multithreading.waitandnotify;
 
 public class Message {
 
-    private String message; //message of type String
+    private String message;
 
     public Message(String message) {
         this.message = message;
@@ -15,5 +15,4 @@ public class Message {
     public void setMessage(String message) {
         this.message = message;
     }
-    //commit for nothing
 }
