@@ -3,7 +3,7 @@ package code.java.multithreading;
 public class DemoMultiThread implements Runnable{
     @Override
     public void run() {
-        System.out.println("Hello");
+        System.out.println("Hello"); //printing hello here
     }
 
     public static void main(String[] args) throws InterruptedException {

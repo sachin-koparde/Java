@@ -14,6 +14,6 @@ public class CreatingThreadUsingLambdaExpression implements Runnable{
 
     @Override
     public void run() {
-
+        //logic here
     }
 }
