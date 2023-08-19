@@ -14,7 +14,7 @@ public class DemoMultiThread implements Runnable{
         newThread.start(); //thread will start its execution here
 
         //sleep(int milli-seconds)
-        newThread.sleep(2000); //thread will sleep for 2000 milli-seconds
+        Thread.sleep(2000); //thread will sleep for 2000 milli-seconds
 
         newThread.setPriority(1); //setting a priority
 
