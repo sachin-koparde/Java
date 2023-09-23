@@ -1,7 +1,7 @@
 package code.java.other;
 
 public class Bike implements Comparable<Bike>{
-	String name;
+	String name; 
 	Integer milage, price;
 	public Bike(String a, int b, int c) {
 		name = a;
